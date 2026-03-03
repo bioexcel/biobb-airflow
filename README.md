@@ -10,10 +10,6 @@ This repo hosts a Docker Compose implementation for Apache Airflow.
 
 The [**docker-compose.yaml**](docker-compose.yaml) is the file that specifies what **images** are required, what **ports** they need to expose, whether they have access to the host **filesystem**, what **commands** should be run when they start up, and so on.
 
-### airflow.cfg
-
-The [**airflow.cfg**](./config/airflow.cfg) file is the main Airflow configuration file. It controls every aspect of the Airflow installation, organized in sections like `[core]`, `[database]`, `[celery]`, `[scheduler]` and so on.
-
 ### .env file
 
 ⚠️ No sensible default value is provided for any of these fields, they **need to be defined** ⚠️
