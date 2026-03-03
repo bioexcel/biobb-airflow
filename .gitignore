@@ -4,3 +4,4 @@ tmp/
 logs/
 dags/*/
 .env
+config/
