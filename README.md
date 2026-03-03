@@ -1,6 +1,6 @@
 # BioBB Apache Airflow implementation
 
-<div align="center"><a href="https://airflow.apache.org/"><img src="airflow.png" height="80"></a><a href="https://mmb.irbbarcelona.org/"><img src="biobb.png"></a></div>
+<div align="center"><a href="https://airflow.apache.org/"><img src="airflow.png" height="80"></a><a href="https://mmb.irbbarcelona.org/biobb/"><img src="biobb.png"></a></div>
 
 This repo hosts a Docker Compose implementation for Apache Airflow.
 
