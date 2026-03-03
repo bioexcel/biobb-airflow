@@ -22,7 +22,7 @@ An `.env` file must be created in the project folder. The file [`.env.git`](./.e
 
 | key              | value   | description                                     |
 | ---------------- | ------- | ----------------------------------------------- |
-|AIRFLOW_IMAGE_NAME        | string  | Image version used for Apache Airfloe                               |
+|AIRFLOW_IMAGE_NAME        | string  | Image version used for Apache Airflow                               |
 |AIRFLOW_UID        | number  | Airflow user identifier                              |
 |AIRFLOW_PROJ_DIR        | string  | Absolute path to this Apache Airflow implementation                               |
 
