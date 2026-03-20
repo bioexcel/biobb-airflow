@@ -103,6 +103,22 @@ Once a workflow has run, open a workflow and type:
 http://localhost:8888/<WF NAME>/outputs/<STEP>/<FILE NAME>
 ```
 
+### Shutdown
+
+Shutdown all the Airflow services:
+
+```
+docker compose down
+```
+
+## Tips
+
+Clear DAG from Database (sometimes stale DAGs are cahced and must be removed, ie if changing the DAG name):
+
+```
+docker compose exec airflow-apiserver airflow dags delete <dag_name_to_remove> -y
+```
+
 ## Copyright & Licensing
 
 This software has been developed in the [MMB group](http://mmb.irbbarcelona.org) at the [IRB](https://www.irbbarcelona.org/) for the [European BioExcel](http://bioexcel.eu/), funded by the European Commission (EU Horizon Europe [101093290](https://cordis.europa.eu/project/id/101093290), EU H2020 [823830](http://cordis.europa.eu/projects/823830), EU H2020 [675728](http://cordis.europa.eu/projects/675728)).
