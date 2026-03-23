@@ -25,9 +25,10 @@ extra_env_injected=false
 HOST_ARCH=$(uname -m)
 
 # Images known to crash under QEMU due to Intel KMP affinity assertions
-# Add any other problematic images here
 QEMU_BROKEN_IMAGES=(
     "quay.io/biocontainers/biobb_amber"
+    "quay.io/biocontainers/biobb_pytorch"
+    "quay.io/biocontainers/biobb_mem"
 )
 
 # Check if any argument matches a known broken image
